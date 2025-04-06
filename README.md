@@ -59,6 +59,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Manan Batra - [Your Email](mailto:btra.manan04@gmail.com)
+Manan Batra - [btra.manan04@gmail.com](mailto:btra.manan04@gmail.com)
 
 Project Link: [https://github.com/your-username/smart-waste-classifier](https://github.com/your-username/smart-waste-classifier)
