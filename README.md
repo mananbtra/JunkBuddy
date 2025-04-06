@@ -1,7 +1,7 @@
 # JunkBuddy
 Innovative tool designed to help individuals identify and properly dispose of waste using AI-powered image recognition.
 
-**JunkBudddy - Waste Classifier** is an innovative tool designed to help individuals identify and properly dispose of waste using AI-powered image recognition. This project integrates with a MySQL database to provide accurate disposal and recycling methods for various types of waste.
+**JunkBuddy - Waste Classifier** is an innovative tool designed to help individuals identify and properly dispose of waste using AI-powered image recognition. This project integrates with a MySQL database to provide accurate disposal and recycling methods for various types of waste.
 
 ## Features
 
@@ -52,10 +52,6 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
