@@ -14,7 +14,7 @@ Innovative tool designed to help individuals identify and properly dispose of wa
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/smart-waste-classifier.git
+   git clone https://github.com/mananbtra/JunkBuddy
    ```
 
 2. **Install Dependencies**:
@@ -57,4 +57,4 @@ Contributions are what make the open-source community such an amazing place to l
 
 Manan Batra - [btra.manan04@gmail.com](mailto:btra.manan04@gmail.com)
 
-Project Link: [https://github.com/your-username/smart-waste-classifier](https://github.com/your-username/smart-waste-classifier)
+Project Link: [[https://github.com/your-username/smart-waste-classifier](https://github.com/mananbtra/JunkBuddy)]
