@@ -133,7 +133,7 @@ def classify_image(image_file_path):
     
     # Headers (only API key and host are needed)
     headers = {
-        "x-rapidapi-key": "566a6b1d9amsh8049a873803169dp1f2884jsn52eeb9d80e1b",  # Replace with your actual API key
+        "x-rapidapi-key": "",  # Replace with your actual API key if not in secrets.toml
         "x-rapidapi-host": "general-detection.p.rapidapi.com",
     }
     
