@@ -57,4 +57,4 @@ Contributions are what make the open-source community such an amazing place to l
 
 Manan Batra - [btra.manan04@gmail.com](mailto:btra.manan04@gmail.com)
 
-Project Link: [[https://github.com/your-username/smart-waste-classifier](https://github.com/mananbtra/JunkBuddy)]
+Project Link: [[JunkBuddy](https://github.com/mananbtra/JunkBuddy)]
