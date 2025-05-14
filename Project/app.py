@@ -34,11 +34,30 @@ def get_waste_info(category_name):
         table_mapping = {
             'Plastic Bottles': 'Plastics',
             'Plastic Bags': 'Plastics',
+            'Plastic Cups': 'Plastics',
+            'Plastic Containers': 'Plastics',
+            'Straws': 'Plastics',
             'Smartphones': 'Electronics',
             'Laptops': 'Electronics',
+            'Tablets': 'Electronics',
+            'Speakers': 'Electronics',
+            'Headphones': 'Electronics',
+            'Keyboards': 'Electronics',
+            'Mouse': 'Electronics',
+            'Cameras': 'Electronics',
             'Circuit Boards': 'E_Waste',
+            'Storage Drives': 'E_Waste',
+            'Cables': 'E_Waste',
+            'Wires': 'E_Waste',
+            'USB Sticks': 'E_Waste',
             'Cotton Fabrics': 'Textiles',
+            'Polyester Fabrics': 'Textiles',
+            'Wool Fabrics': 'Textiles',
+            'Denim': 'Textiles',
+            'Fabric': 'Textiles',
             'Cardboard': 'Other_Waste',
+            'Glass Bottles': 'Other_Waste',
+            'Metal Cans': 'Other_Waste',
             'Batteries': 'Batteries'
         }
         
@@ -133,7 +152,7 @@ def classify_image(image_file_path):
     
     # Headers (only API key and host are needed)
     headers = {
-        "x-rapidapi-key": "",  # Replace with your actual API key if not in secrets.toml
+        "x-rapidapi-key": st.secrets["x-rapidapi-key"],
         "x-rapidapi-host": "general-detection.p.rapidapi.com",
     }
     
@@ -212,7 +231,7 @@ def main():
             tmp_file.write(uploaded_file.getvalue())
             tmp_path = tmp_file.name
         
-        st.image(uploaded_file, use_column_width=True)
+        st.image(uploaded_file, use_container_width=True)
         
         with st.spinner("Analyzing waste..."):
             result = detect_waste(tmp_path)
@@ -244,8 +263,9 @@ def main():
             st.warning("No recognized waste category found")
 
 if __name__ == "__main__":
-    required_secrets = ["DB_HOST", "DB_USER", "DB_PASSWORD", "DB_NAME", "DB_PORT"]
+    required_secrets = ["DB_HOST", "DB_USER", "DB_PASSWORD", "DB_NAME", "DB_PORT", "x-rapidapi-key"]
     
+    # Check if all required secrets are available
     if all(key in st.secrets for key in required_secrets):
         if "x-rapidapi-key" in st.secrets:
             main()
